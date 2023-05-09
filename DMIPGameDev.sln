@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Falsemario", "Falsemario\Falsemario.csproj", "{3A96FE91-7E7E-4387-B2ED-7E5FEE5FDFF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMIPSpaceInvaders", "DMIPSpaceInvaders\DMIPSpaceInvaders.csproj", "{B8A9597A-DE8F-4F56-82C3-9EB70B5C843E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A96FE91-7E7E-4387-B2ED-7E5FEE5FDFF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A96FE91-7E7E-4387-B2ED-7E5FEE5FDFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A96FE91-7E7E-4387-B2ED-7E5FEE5FDFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A96FE91-7E7E-4387-B2ED-7E5FEE5FDFF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A9597A-DE8F-4F56-82C3-9EB70B5C843E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A9597A-DE8F-4F56-82C3-9EB70B5C843E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A9597A-DE8F-4F56-82C3-9EB70B5C843E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A9597A-DE8F-4F56-82C3-9EB70B5C843E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

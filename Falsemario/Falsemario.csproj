@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{3A96FE91-7E7E-4387-B2ED-7E5FEE5FDFF1}</ProjectGuid>
+        <OutputType>Exe</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>Falsemario</RootNamespace>
+        <AssemblyName>Falsemario</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Drawing" />
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Engine\Basic\ICollidable.cs" />
+        <Compile Include="Engine\Basic\IDamageable.cs" />
+        <Compile Include="Engine\Basic\IDrawable.cs" />
+        <Compile Include="Engine\Basic\IMovable.cs" />
+        <Compile Include="Engine\Basic\Point2D.cs" />
+        <Compile Include="Engine\Basic\Rectangle.cs" />
+        <Compile Include="Engine\Basic\Vector2D.cs" />
+        <Compile Include="Engine\GameEngine.cs" />
+        <Compile Include="Engine\GameObject.cs" />
+        <Compile Include="Engine\Graphics\Blackboard.cs" />
+        <Compile Include="Engine\Graphics\Dot.cs" />
+        <Compile Include="Engine\Graphics\Sprite.cs" />
+        <Compile Include="Engine\Interop\WinApi.cs" />
+        <Compile Include="Engine\Utils\ConsoleApiWrap.cs" />
+        <Compile Include="Engine\Utils\Extensions.cs" />
+        <Compile Include="Engine\Utils\ScreenBufferInfo.cs" />
+        <Compile Include="Engine\Utils\ThreadLocalRandom.cs" />
+        <Compile Include="Engine\Utils\Timer.cs" />
+        <Compile Include="Game\Entites\Brick.cs" />
+        <Compile Include="Game\Entites\Coin.cs" />
+        <Compile Include="Game\Entites\Enemy.cs" />
+        <Compile Include="Game\Entites\Player.cs" />
+        <Compile Include="Game\Levels\LevelData.cs" />
+        <Compile Include="Game\Levels\LevelContext.cs" />
+        <Compile Include="Game\Levels\Level.cs" />
+        <Compile Include="Game\Levels\LevelLoader.cs" />
+        <Compile Include="Game\TitleController.cs" />
+        <Compile Include="Program.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>
