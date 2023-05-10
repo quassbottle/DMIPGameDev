@@ -3,7 +3,7 @@ Made for DMIP IT 2020, winner in programming section (game development)
 Link: https://дмип.рф/?page=project&mode=show&project=135
 
 ## Console game engine
-The game engine is based on components (game objects) which have Init method, which is called on the instantiation of the object, Update method, which is called every 50 ms (tick) and Deinit method, which is called when game object is destroyed. Graphics are based on ASCII symbols, which can be painted so it allows to make ASCII sprites with different colors. Falsemario engine is a better version, so if you are interested in using it for your own projects, please check the Falsemario project.
+The game engine is based on components (game objects) which have Init method, which is called on the instantiation of the object, Update method, which is called every 50 ms (tick) and Deinit method, which is called when game object is destroyed. Graphics are based on ASCII symbols, which can be painted so it allows to make ASCII sprites with different colors. Falsemario's engine is slightly improved, so if you are interested at using it for your own projects, please check the Falsemario project.
 
 ## Space Invaders
 Was made in a week. Space invaders clone and console game engine. The game itself includes several difficulties, a local highscores file and pretty much the game.
